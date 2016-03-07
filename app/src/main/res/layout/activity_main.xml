@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="000"
+        android:textColor="#f39800"
+        android:background="#999999"
+        android:textSize="70dp"
+        android:gravity="right"
+    />
+
+    <Button
+        android:id="@+id/No7"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:textSize="40dp"
+        android:text="7"
+        android:layout_below="@+id/number"
+    />
+
+    <Button
+        android:id="@+id/No8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="8"
+        android:layout_below="@+id/number"
+        android:layout_toRightOf="@+id/No7"
+    />
+
+    <Button
+        android:id="@+id/No9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="9"
+        android:layout_below="@+id/number"
+        android:layout_toRightOf="@+id/No8"
+    />
+
+    <Button
+        android:id="@+id/NoBleak"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="÷"
+        android:layout_below="@+id/number"
+        android:layout_toRightOf="@+id/No9"
+    />
+
+    <Button
+        android:id="@+id/No4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="4"
+        android:layout_below="@+id/No7"
+    />
+
+    <Button
+        android:id="@+id/No5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="5"
+        android:layout_toRightOf="@+id/No4"
+        android:layout_below="@+id/No8"
+    />
+
+    <Button
+        android:id="@+id/No6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="6"
+        android:layout_toRightOf="@+id/No5"
+        android:layout_below="@+id/No9"
+    />
+
+    <Button
+        android:id="@+id/NoMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="✕"
+        android:layout_toRightOf="@+id/No6"
+        android:layout_below="@+id/NoBleak"
+    />
+
+    <Button
+        android:id="@+id/No1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="1"
+        android:layout_below="@+id/No4"
+    />
+
+    <Button
+        android:id="@+id/No2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="2"
+        android:layout_toRightOf="@+id/No1"
+        android:layout_below="@+id/No5"
+    />
+
+    <Button
+        android:id="@+id/No3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="3"
+        android:layout_toRightOf="@+id/No2"
+        android:layout_below="@+id/No6"
+    />
+
+    <Button
+        android:id="@+id/NoMinus"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="−"
+        android:layout_toRightOf="@+id/No3"
+        android:layout_below="@+id/NoMultiply"
+    />
+
+    <Button
+        android:id="@+id/No0"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="0"
+        android:layout_below="@+id/No1"
+    />
+
+    <Button
+        android:id="@+id/NoPoint"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="."
+        android:layout_toRightOf="@id/No0"
+        android:layout_below="@id/No2"
+    />
+
+    <Button
+        android:id="@+id/NoCancel"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="C"
+        android:layout_toRightOf="@id/NoPoint"
+        android:layout_below="@+id/No3"
+    />
+
+    <Button
+        android:id="@+id/NoPlus"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="＋"
+        android:layout_toRightOf="@+id/NoCancel"
+        android:layout_below="@+id/NoMinus"
+    />
+
+    <Button
+        android:id="@+id/Noequal"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:textSize="40dp"
+        android:text="="
+        android:layout_below="@+id/No0"
+    />
+
+
+
+</RelativeLayout>
