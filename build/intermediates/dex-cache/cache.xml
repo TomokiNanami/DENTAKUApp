@@ -1,2 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_f9285da061138667ea7c8ac08d7ed1adb8fec93d.jar" />
+    </item>
+    <item
+        jar="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_a3480e7e2c30bdad7162e94e121f5337a60341bb.jar" />
+    </item>
+    <item
+        jar="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_5c215aa7686e5baaa58004a9efa45b9b3e21c801.jar" />
+    </item>
+    <item
+        jar="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_5ec9440bb2e0c75085885d5ace86aafe05072641.jar" />
+    </item>
+    <item
+        jar="/Users/luxeys/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_ae757d716f53393cc144e4bc00403d00a748ed45.jar" />
+    </item>
+    <item
+        jar="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/luxeys/AndroidStudioProjects/DentakuApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_acdc623c1f5a0d2ab922062a278178efa72934ca.jar" />
+    </item>
+
+</items>
