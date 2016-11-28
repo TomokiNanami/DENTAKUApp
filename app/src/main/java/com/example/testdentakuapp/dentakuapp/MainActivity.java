@@ -14,7 +14,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     int mID[] = { R.id.No0, R.id.No1, R.id.No2, R.id.No3, R.id.No4, R.id.No5, R.id.No6, R.id.No7,
             R.id.No8, R.id.No9, R.id.NoPlus, R.id.NoMinus, R.id.NoMultiply, R.id.NoBleak,
-            R.id.NoCancel, R.id.NoPoint, R.id.Noequal};
+            R.id.NoCancel, R.id.NoPoint, R.id.Noequal, R.id.No000,  R.id.No001, R.id.No002,
+            R.id.No003, R.id.No004, R.id.No005,};
 
 
     private final int KEY_0 = 0;
@@ -34,6 +35,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private final int KEY_CANCEL = 14;
     private final int KEY_POINT = 15;
     private final int KEY_EQUAL = 16;
+    private final int KEY_001 = 17;
+    private final int KEY_002 = 18;
+    private final int KEY_003 = 19;
+    private final int KEY_004 = 20;
+    private final int KEY_005 = 21;
 
 
     TextView mTextView;
