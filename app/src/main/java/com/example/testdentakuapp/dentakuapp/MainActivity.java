@@ -11,7 +11,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     Button mButton[];
 
-    int mID[] = { R.id.No0, R.id.No1, R.id.No2, R.id.No3, R.id.No4, R.id.No5, R.id.No6, R.id.No7,
+    int mID[] = { R.id.No0, R.id.No1, R.id.No2, R.id.No3, R.id.No4, R.id.No5, R.id.No6, R.id.No7,   
             R.id.No8, R.id.No9, R.id.NoPlus, R.id.NoMinus, R.id.NoMultiply, R.id.NoBleak,
             R.id.NoCancel, R.id.NoPoint, R.id.Noequal, R.id.No000,  R.id.No001, R.id.No002,
             R.id.No003, R.id.No004, R.id.No005,};
